@@ -85,16 +85,6 @@ body {
   overflow-x: hidden;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
 a {
   color: inherit;
   text-decoration: none;
@@ -104,4 +94,79 @@ a {
   html {
     color-scheme: dark;
   }
+}
+.cosmic-section {
+  width: 358px !important;
+  /* height: 205px !important; */
+  background: #eee1f0 !important;
+}
+
+.cosmic-scores {
+  width: 36px !important;
+  height: 36px !important;
+  padding: 12px 6px 12px 6px !important;
+  gap: 10px !important;
+  border-radius: 50px !important;
+  border: 1px 0px 0px 0px !important;
+  opacity: 0px !important;
+  color: #ffffff !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-right: 7px !important;
+  margin-top: 24px !important;
+  margin-bottom: 16px !important;
+}
+
+.cosmic-scores-bg {
+  background: #595857 !important;
+}
+.atomic-scores-bg {
+  background: #00aeb1 !important;
+}
+.bg-atomic-timer {
+  background: #00aeb1 !important;
+  height: 40px;
+}
+
+.fontsize12 {
+  font-size: 12px !important;
+}
+.timer-section {
+  background-color: #961a88;
+  height: 40px !important;
+}
+.app-button {
+  width: 80px;
+  height: 24px;
+  top: 8px;
+  left: 262px;
+  padding: 12px 24px 12px 24px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.classic-section {
+  width: 358px !important;
+  /* height: 141px; */
+  gap: 0px !important;
+  border-radius: 4px 4px 0px 0px !important;
+  opacity: 0px !important;
+  background: #e9eef6 !important;
+}
+.bg-classic-timer {
+  background: #191978 !important;
+  height: 40px !important;
+}
+.attomic-section {
+  width: 358px !important;
+  /* height: 141px; */
+  gap: 0px !important;
+  border-radius: 4px 4px 0px 0px !important;
+  opacity: 0px !important;
+  background: #eaf9f7 !important;
 }
